@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript mini project</title>
+</head>
+  <body>
+	<div id="wrapper">
+		<header>
+			<h1>JAVASCRIPT MINI PROJECT USING DOM</h1>
+		</header>
+	<div id="main">
+	    	<div id="page-banner">
+	    		<h1 class="title">Best Movie Collection-2021</h1>
+          <p>Add to playlist</p>
+          <form id="search-movies">
+            <input type="text" placeholder="search to refresh......." />
+          </form>
+	    	</div>
+	    <div id="movie-list">
+	    	<h2 style=" color: rgb(27, 27, 223);" class="title">Watch on Our Website</h2>
+	    	<ul>
+	    		<li class="name1">
+	    			<span >Spider-Man: No Way Home</span>
+					<span class="add-delete"><button onclick="addToplay1()" class="add-playlist">Add playlist</button><button onclick="remove1()" class="delete">delete</button></span>
+
+
+	    		</li>
+	    		<li class="name2">
+	    			<span >Palm Springs</span>
+					<span class="add-delete"><button onclick="addToplay2()" class="add-playlist">Add playlist</button><button onclick="remove2()" class="delete">delete</button></span>
+
+	    		</li>
+	    		<li class="name3">
+	    			<span > The Mitchells Vs. The Machines</span>
+					<span class="add-delete"><button onclick="addToplay3()" class="add-playlist">Add playlist</button><button onclick="remove3()" class="delete">delete</button></span>
+
+ 
+	    		</li>
+	    		<li class="name4">
+	    			<span>The Power Of The Dog</span>
+					<span class="add-delete"><button onclick="addToplay4()" class="add-playlist">Add playlist</button><button onclick="remove4()" class="delete">delete</button></span>
+	    		</li>
+	    		<li class="name5">
+	    			<span>Barb & Star Go To Vista Del Mar</span>
+					<span class="add-delete"><button onclick="addToplay5()" class="add-playlist">Add playlist</button><button onclick="remove5()" class="delete">delete</button></span>
+	    		</li>
+	    	</ul>
+			<div id="play-list">
+				<h2>Playlist</h2>
+				<div class="removeall">
+				<h3 class="added1"></h3>
+				<h3 class="added2"></h3>
+				<h3 class="added3"></h3>
+				<h3 class="added4"></h3>
+				<h3 class="added5"></h3>
+			</div>
+			</div>
+			<button class="clearall" onclick="clearall()">Delete playlist</button>
+	    </div>  
+	
+		</div>
+    </div>
+	<footer>
+		<p>Copyright &copy; 2021 by <strong>Faruk Alam Hawlader</strong></p>
+	</footer>
+
+	<script src="main.js"></script>
+  </body>
+</html>
